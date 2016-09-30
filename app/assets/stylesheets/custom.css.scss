@@ -5,6 +5,9 @@
               
                
 }
+.center{
+  align: center;
+}
 #box1 {
   background-image: asset-url('crazygirls.jpg');
   background-size: contain;
@@ -21,8 +24,15 @@
   margin-right: 30px;
   width : 500px;
   height: 450px;
-  
- 
+}
+#profile {
+  float: left;
+  margin-top: 20px;
+  margin-right: 30px;
+  width: 500px;
+  height: 450px;
+  font-size: 15px;
+  font-family: "Times New Roman", Times, serif;
   
 }
   
