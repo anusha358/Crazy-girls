@@ -1,5 +1,6 @@
-
- <%=form_for(:session, :html=> {class: "form-horizontal",role:"form"},url_path:login_path) do |f| %>
+<div id="div-signin">
+  
+  <%=form_for(:session, :html=> {class: "form-horizontal",role:"form"},url_path:login_path) do |f| %>
         
         <div class="form-group">
           <div class="control-label col-sm-2">
@@ -29,3 +30,5 @@
           [ <%= link_to "back to home",root_path %>]
         </div>
         <% end %>
+</div>
+ 
